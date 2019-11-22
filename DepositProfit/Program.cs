@@ -1,29 +1,28 @@
 ﻿using System;
 
-namespace countTriangles
+namespace DepositProfit
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(depositProfit(100, 1, 101));
         }
 
-        int depositProfit(int deposit, int rate, int threshold)
+        static int depositProfit(int deposit, int rate, int threshold)
         {
             int year = 0;
             double balance = deposit;
-            while (balance > threshold)
+            while (balance < threshold)
             {
-                balance += balance * 0.2;
-                year++;
+                balance += balance * (rate / 100d);
                 Console.WriteLine(balance);
+                year++;
             }
 
             return year;
         }
 
     }
-
-
 }
