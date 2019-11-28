@@ -19,6 +19,26 @@ namespace AvoidingObstacles
             Console.WriteLine(AvoidObstacles(inputArray));
         }
 
+        //static int AvoidObstacles(int[] inputArray)
+        //{
+        //    int jump = 2;
+        //    bool isMinJump = false;
+        //    while (!isMinJump)
+        //    {
+        //        isMinJump = true;
+        //        for (int i = 0; i < inputArray.Length; i++)
+        //        {
+        //            if (inputArray[i] % jump == 0)
+        //            {
+        //                jump++;
+        //                isMinJump = false;
+        //                break;
+        //            }
+        //        }
+        //    }
+        //    return jump;
+        //}
+
         static int AvoidObstacles(int[] inputArray)
         {
             int jump = 2;

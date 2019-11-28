@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepositProfit", "DepositPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{2DB82066-3712-4879-A241-E8204441B776}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvoidingObstacles", "AvoidingObstacles\AvoidingObstacles.csproj", "{3CDF8B26-2F0D-4AF8-B78C-AC17CA3B7AA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvoidingObstacles", "AvoidingObstacles\AvoidingObstacles.csproj", "{3CDF8B26-2F0D-4AF8-B78C-AC17CA3B7AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passwordCheck", "passwordCheck\passwordCheck.csproj", "{7BD8FD77-8B34-454B-A5EA-F57F9171BD50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{3CDF8B26-2F0D-4AF8-B78C-AC17CA3B7AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDF8B26-2F0D-4AF8-B78C-AC17CA3B7AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDF8B26-2F0D-4AF8-B78C-AC17CA3B7AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD8FD77-8B34-454B-A5EA-F57F9171BD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD8FD77-8B34-454B-A5EA-F57F9171BD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD8FD77-8B34-454B-A5EA-F57F9171BD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD8FD77-8B34-454B-A5EA-F57F9171BD50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
